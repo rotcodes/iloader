@@ -265,9 +265,10 @@
         "Make sure iloader has permission to read and write files on your system."
       ],
       "not_enough_app_ids": [
-        "You do not have enough App IDs available to install this app.",
-        "Wait for App IDs to expire after 7 days (cannot be deleted sooner), then try again.",
-        "Installing apps from SideStore sometimes allows you to use less App IDs, so try installing from there instead."
+        "Auto-cleanup could not free enough App ID slots for this install.",
+        "All remaining IDs are either needed by the new app or protected (SideStore, AltStore, LiveContainer).",
+        "Wait for the 7-day rolling window to reset, then try again.",
+        "Installing apps via LiveContainer avoids consuming App IDs entirely."
       ],
       "max_apps": [
         "You can only have 3 sideloaded apps installed at a time with a free Apple ID.",
